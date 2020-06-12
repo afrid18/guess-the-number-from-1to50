@@ -3,10 +3,14 @@
 //GUESS THE NUMBER FORM 1 - 50
 //ANY BUGS? FEEL FREE TO ISSUE ON GITHUB "https://github.com/afrid83/guess-the-number-from-1to50"
 
+
+
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
 
+
+//=============wannaplay function================
 
 int WannaPlay() {
     char YesOrNo='n';
@@ -19,6 +23,9 @@ int WannaPlay() {
     else
         return 0;
 }
+
+
+//================playgame function===========
 
 void playGame() {
     printf("=========================Guess the random number....!=========================");
@@ -43,6 +50,9 @@ void playGame() {
         i++;
     }while(i < 5);
 }
+
+//================main function==================
+
 
 int main(void) {
     do{
